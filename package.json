@@ -1,0 +1,27 @@
+{
+  "name": "safehavenapp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "expo": "~53.0.7",
+    "expo-status-bar": "~2.2.3",
+    "react": "19.0.0",
+    "react-native": "0.79.2",
+    "react-native-maps": "1.20.1",
+    "expo-location": "~18.1.4",
+    "expo-sms": "~13.1.4",
+    "expo-sensors": "~14.1.4",
+    "@react-native-async-storage/async-storage": "2.1.2",
+    "react-native-svg": "15.11.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
